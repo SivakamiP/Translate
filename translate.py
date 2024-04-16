@@ -1,6 +1,7 @@
 import streamlit as st
 from googletrans import Translator
 
+
 st.header('Machine Translation Demo')
 input_text = st.text_area("Please enter the text", value='')
 option = st.selectbox(
